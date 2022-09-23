@@ -1,2 +1,2 @@
-# examples
-This repo contains the example programs from class.
+# Code Examples from Class
+This repo contains the code examples from class lectures.
