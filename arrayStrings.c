@@ -29,9 +29,14 @@ char *newStr(char *string){
 }
 
 void printArray(char **ptr,int size){
+	int index;
 
 	printf("Array of String Pointers | Address of String | String     | 1st Character in String\n");
 	printf("-----------------------------------------------------------------------------------\n");
-	
+	for(index=0;index<size;index++){
+		printf("%p | %p | %s | %c\n",ptr,*ptr,*ptr,**ptr);
+		ptr++;
+	}
+
 }
 
